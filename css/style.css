@@ -7,9 +7,10 @@ html {
     box-sizing: inherit;
 }
 body{
+    font-family: 'Roboto';
     margin: 0;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 a {
@@ -53,12 +54,14 @@ a {
     font-weight: 700;
     color: #1F2E35;
 }
-.intro-title > span{
+.intro-title > span, .info-title > span, .info-text > span{
     color: #EE4248;
 }
 .intro-text {
     font-size: 20px;
     color: #30444E;
+    margin: 24px 0;
+    /* margin-top: 24px; */
 }
 .intro-btn {
     display: inline-block;
@@ -67,4 +70,30 @@ a {
     color: #FFF;
     background-color: #EE4248;
     border-radius: 4px;
+}
+
+.info{
+    padding: 57px 0 63px 0;
+    background-color: #F6F6F6;
+}
+.info-title{
+    font-size: 32px;
+    color: #1F2E35;
+}
+.info-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info-content {
+    width: 45%;
+}
+.info-article {
+    font-size: 18px;
+    color: #30444E;
+    margin-top: 24px;
+}
+.info-text:nth-child(2) {
+    margin-top: 18px;
 }
