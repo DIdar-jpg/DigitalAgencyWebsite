@@ -279,3 +279,47 @@ a {
     top, left, right, bottom - указывает положение от этих краёв. Так же их можно 
     комбинировать.
 */
+
+.product {
+}
+.container {
+}
+.product-title {
+    font-size: 32px;
+    font-weight: medium;
+    color: #1F2E35;
+    text-align: center;
+
+    margin-top: 48px;
+}
+.product-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    margin-top: 32px;
+}
+.product-item {
+    width: 28%;
+}
+.product-item-title {
+    font-size: 28px;
+    font-weight: medium;
+    color: #EE4248;
+    margin: 22px 0;
+}
+.product-item-text {
+    font-size: 18px;
+    color: #30444E;
+    line-height: 150%;
+    margin-bottom: 28px;
+}
+.product-item-link {
+    color: #fff;
+    padding: 8px 16px;
+    background-color: #EE4248;
+    border-radius: 4px;
+
+}
